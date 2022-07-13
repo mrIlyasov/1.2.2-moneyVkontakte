@@ -4,6 +4,6 @@ fun main() {
     var amount = 10000_00
     var currentComisssion = amount * comission
     val result: Int = if (currentComisssion < min) (amount - min) else (amount - currentComisssion).toInt()
-    val resultInCurrency = result/100
-    println(resultInCurrency)
+    val resultInRoubles= result/100
+    println(resultInRoubles)
 }
